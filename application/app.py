@@ -5,7 +5,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import google.generativeai as genai
 
 # Constants
-GEMINI_API_KEY = "AIzaSyB0kq7WBtDOYs6E8ZfIgZ-BxjnyNL-6v2U"  # Replace with your Gemini API key
+GEMINI_API_KEY = "AIzaSyDYQD_4_3WPPdarTRSv1iVwAk3J5eg0xY8"  # Replace with your Gemini API key
 
 def initialize_session_state():
     """Initialize session state variables if they don't exist."""
