@@ -25,7 +25,7 @@ def check_api_key(api_key):
 
 def get_gemini_llm(api_key, temperature=0.7):
     """Create and return a Gemini LLM instance."""
-    return ChatGoogleGenerativeAI(model="gemini-2.5-flash",
+    return ChatGoogleGenerativeAI(model="gemini-2.5-pro",
                                   google_api_key=api_key,
                                   temperature=temperature,
                                   max_output_tokens=2048)
