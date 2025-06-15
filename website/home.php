@@ -387,7 +387,7 @@ if (isLoggedIn()) {
     <script>
   document.getElementById('goToAppLink').addEventListener('click', function (e) {
     if (isLoggedIn) {
-      window.location.href = "https://seminar-v67yh9ldpa7j3app4d9wdft.streamlit.app/";
+      window.location.href = "https://seminar-ii-asummkdto8eepbks5u8eak.streamlit.app/";
     } else {
       alert("Please log in to access the app.");
       window.location.href = "login.php";
